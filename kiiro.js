@@ -1,10 +1,10 @@
+const requireApp = require('./gyak.js');
 
+requireApp();
 
-const kiiro = {
-  beutify = (a, b) => {
-    console.log(a + "," + b)
-  }
-}
+const kiiro = (a, b) => {
+  console.log(a + ',' + b);
+};
 
-kiiro()
+kiiro();
 console.log(kiiro);
