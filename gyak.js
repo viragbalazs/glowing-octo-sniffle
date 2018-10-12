@@ -1,7 +1,7 @@
 const numberInTex = {
   1: 'egy',
   2: 'kettő',
-  3: 'három',
+  3: 'korte',
   4: 'négy',
   5: 'öt',
   6: 'hat',
@@ -11,4 +11,4 @@ const numberInTex = {
   10: 'tíz'
 };
 
-module.exports(numberInTex);
+module.exports = numberInTex;

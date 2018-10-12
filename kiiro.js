@@ -1,10 +1,9 @@
-const requireApp = require('./gyak.js');
+const requireGyak = require('./gyak.js');
 
-requireApp();
+const kiiro = (firstParam, secondParam) => {
+  const firstParamInString = firstParam.toString();
+  const secondParamInString = secondParam.toString();
 
-const kiiro = (a, b) => {
-  console.log(a + ',' + b);
+  console.log((requireGyak[firstParamInString]) + ',' + (requireGyak[secondParamInString]));
 };
-
-kiiro();
-console.log(kiiro);
+kiiro(3, 4);
